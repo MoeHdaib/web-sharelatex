@@ -194,7 +194,7 @@ module.exports = settings =
 	# cookie domain
 	# use full domain for cookies to only be accessible from that domain,
 	# replace subdomain with dot to have them accessible on all subdomains
-	# cookieDomain: ".sharelatex.dev"
+	cookieDomain: ".sharelatex.dev"
 	cookieName: "sharelatex.sid"
 
 	# this is only used if cookies are used for clsi backend
@@ -337,7 +337,7 @@ module.exports = settings =
 	# If you are running ShareLaTeX behind a proxy (like Apache, Nginx, etc)
 	# then set this to true to allow it to correctly detect the forwarded IP
 	# address and http/https protocol information.
-	behindProxy: false
+	behindProxy: true
 
 	# Cookie max age (in milliseconds). Set to false for a browser session.
 	cookieSessionLength: 5 * 24 * 60 * 60 * 1000 # 5 days
